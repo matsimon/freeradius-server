@@ -1,0 +1,73 @@
+# -*- text -*-
+# Copyright (C) 2014 The FreeRADIUS Server project and contributors
+#
+#	Cisco Prime Access Registrar internal dictionary
+#
+#
+
+VENDOR		Cisco-AR			1760
+
+BEGIN-VENDOR	Cisco-AR
+
+ATTRIBUTE	Cisco-AR-Realm				1	string
+ATTRIBUTE	Cisco-AR-Incoming-Translation-Groups	2	string
+ATTRIBUTE	Cisco-AR-Client-IP-Address		3	ipaddr
+ATTRIBUTE	Cisco-AR-Subnet-Mask			4	ipaddr
+ATTRIBUTE	Cisco-AR-Outgoing-Translation-Groups	5	string
+ATTRIBUTE	Cisco-AR-Authentication-Service	6	string
+ATTRIBUTE	Cisco-AR-Authorization-Service		7	string
+ATTRIBUTE	Cisco-AR-DNIS				8	string
+ATTRIBUTE	Cisco-AR-CLID				9	string
+ATTRIBUTE	Cisco-AR-UserFilterMask		10	string
+ATTRIBUTE	Cisco-AR-Session-Manager		11	string
+
+# Attribute 12 was found documented in different ways:
+#	ATTRIBUTE	Cisco-AR-Accounting-Service	12	string
+#	ATTRIBUTE	Cisco-AR-Suffix		12	string
+#	ATTRIBUTE	Cisco-AR-Implicit-Auth-Enabled	12	integer
+#
+#	VALUE	Cisco-AR-Implicit-Auth-Enabled	12	Disable	0
+#	VALUE	Cisco-AR-Implicit-Auth-Enabled	12	Enable	1
+
+ATTRIBUTE	Cisco-AR-TimeRange			13	string
+ATTRIBUTE	Cisco-AR-AcceptedProfiles		14	string
+ATTRIBUTE	Cisco-AR-Policy			15	string
+ATTRIBUTE	Cisco-AR-Prefix			16	string
+ATTRIBUTE	Cisco-AR-Delimiters			17	string
+ATTRIBUTE	Cisco-AR-StripPrefix			18	string
+ATTRIBUTE	Cisco-AR-ODBC-Reply-Attribs		19	string
+ATTRIBUTE	Cisco-AR-ODBC-Check-Attribs		20	string
+ATTRIBUTE	Cisco-AR-Session-Service		21	string
+ATTRIBUTE	Cisco-AR-Prepaid			22	string
+
+# Attribute 24 was found documented in different ways:
+#	ATTRIBUTE	Cisco-AR-StripSuffix		24
+#	ATTRIBUTE	Cisco-AR-Query-Service		24
+#
+#	VALUE	Cisco-AR-StripSuffix	24	No	0
+#	VALUE	Cisco-AR-StripSuffix	24	Yes	1
+
+ATTRIBUTE	Cisco-AR-RepSourceIP			92	string
+ATTRIBUTE	Cisco-AR-RepTargetIP			93	string
+ATTRIBUTE	Cisco-AR-RepTxnNum			94	string
+ATTRIBUTE	Cisco-AR-RepTxnCRC			95	string
+ATTRIBUTE	Cisco-AR-RepTxnElementCount		96	string
+ATTRIBUTE	Cisco-AR-RepNeedsFullSync		97	integer
+ATTRIBUTE	Cisco-AR-RepNeedsReSync		98	integer
+ATTRIBUTE	Cisco-AR-RepLastRxTxnNum		99	integer
+ATTRIBUTE	Cisco-AR-RepLastRxTxnCRC		100	integer
+ATTRIBUTE	Cisco-AR-RepNeedsMember		101	integer
+ATTRIBUTE	Cisco-AR-RepMemberName			102	string
+ATTRIBUTE	Cisco-AR-RepMemberIP			103	ipaddr
+ATTRIBUTE	Cisco-AR-RepMemberPort			104	integer
+ATTRIBUTE	Cisco-AR-RepMemberOrdinal		105	integer
+ATTRIBUTE	Cisco-AR-RepWorkLoad			106	integer
+ATTRIBUTE	Cisco-AR-RepTxTime			107	integer
+ATTRIBUTE	Cisco-AR-RepElementPath		108	string
+ATTRIBUTE	Cisco-AR-RepElementValue		109	string
+ATTRIBUTE	Cisco-AR-RepElementOrdinal		110	integer
+ATTRIBUTE	Cisco-AR-RepElementCRC			111	integer
+ATTRIBUTE	Cisco-AR-RepElementType		112	integer
+ATTRIBUTE	Cisco-AR-RepElementMode		113	integer
+
+END-VENDOR  Cisco-AR

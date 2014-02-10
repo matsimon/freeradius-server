@@ -49,6 +49,7 @@ ATTRIBUTE	Cisco-Gateway-Id			18	string
 ATTRIBUTE	Cisco-Call-Type				19	string
 ATTRIBUTE	Cisco-Port-Used				20	string
 ATTRIBUTE	Cisco-Abort-Cause			21	string
+ATTRIBUTE	Cisco-CRS-Info				22	string
 
 #
 #  Voice over IP attributes.
@@ -63,6 +64,7 @@ ATTRIBUTE	h323-disconnect-time			29	string
 ATTRIBUTE	h323-disconnect-cause			30	string
 ATTRIBUTE	h323-voice-quality			31	string
 ATTRIBUTE	h323-gw-id				33	string
+ATTRIBUTE	Cisco-3GPP2-AVPair		34	string
 ATTRIBUTE	h323-incoming-conf-id			35	string
 
 ATTRIBUTE	Cisco-Policy-Up				37	string
@@ -98,6 +100,7 @@ ATTRIBUTE	outgoing-req-uri			147	string
 ATTRIBUTE	next-hop-ip				148	string
 ATTRIBUTE	next-hop-dn				149	string
 ATTRIBUTE	sip-hdr					150	string
+
 
 #
 #	Extra attributes sent by the Cisco, if you configure
