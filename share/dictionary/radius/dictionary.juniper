@@ -23,7 +23,10 @@ ATTRIBUTE	Deny-Configuration			5	string
 ATTRIBUTE	Interactive-Command			8	string
 ATTRIBUTE	Configuration-Change			9	string
 ATTRIBUTE	User-Permissions			10	string
-ATTRIBUTE	Junosspace-Profile			11	string
+ATTRIBUTE	Authentication-Type			11	string
+ATTRIBUTE	Session-Port			12	integer
+ATTRIBUTE	Allow-Configuration-Regexps			13	string
+ATTRIBUTE	Deny-Configuration-Regexps			14	string
 
 ATTRIBUTE	CTP-Group				21	integer
 ATTRIBUTE	CTPView-APP-Group			22	integer
