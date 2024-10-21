@@ -367,6 +367,8 @@ VALUE	Tunnel-Tx-Speed-Method		static-layer2		1
 VALUE	Tunnel-Tx-Speed-Method		dynamic-layer2		2
 VALUE	Tunnel-Tx-Speed-Method		qos			3
 VALUE	Tunnel-Tx-Speed-Method		actual			4
+VALUE	Tunnel-Tx-Speed-Method		ancp			5
+VALUE	Tunnel-Tx-Speed-Method		pppoe-ia-tags			6
 
 VALUE	IGMP-Immediate-Leave		disabled		0
 VALUE	IGMP-Immediate-Leave		enabled			1
