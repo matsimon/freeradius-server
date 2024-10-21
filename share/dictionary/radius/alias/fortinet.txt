@@ -20,6 +20,7 @@ ALIAS	Fortinet-WirelessController-Device-MAC  	26.12356.23
 ALIAS	Fortinet-WirelessController-WTP-ID      	26.12356.24
 ALIAS	Fortinet-WirelessController-Assoc-Time  	26.12356.25
 ALIAS	Fortinet-FortiWAN-AVPair                	26.12356.26
+ALIAS	Fortinet-Captive-Portal-URL             	26.12356.27
 ALIAS	Fortinet-FDD-Access-Profile             	26.12356.30
 ALIAS	Fortinet-FDD-Trusted-Hosts              	26.12356.31
 ALIAS	Fortinet-FDD-SPP-Name                   	26.12356.32
