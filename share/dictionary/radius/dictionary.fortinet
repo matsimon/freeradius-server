@@ -43,6 +43,7 @@ ATTRIBUTE	WirelessController-Device-MAC		23	ether
 ATTRIBUTE	WirelessController-WTP-ID		24	string
 ATTRIBUTE	WirelessController-Assoc-Time		25	date
 ATTRIBUTE	FortiWAN-AVPair				26	string
+ATTRIBUTE	Captive-Portal-URL				27	string
 ATTRIBUTE	FDD-Access-Profile			30	string
 ATTRIBUTE	FDD-Trusted-Hosts			31	string
 ATTRIBUTE	FDD-SPP-Name				32	string
