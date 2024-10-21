@@ -16,5 +16,9 @@ BEGIN-VENDOR	Meinberg
 
 ATTRIBUTE	Management-Privilege-Level		1	integer
 
+VALUE Management-Privilege-Level Super-Admin 100
+VALUE Management-Privilege-Level Admin-User 200
+VALUE Management-Privilege-Level Info-User 300
+
 END-VENDOR     Meinberg
 ALIAS		Meinberg				Vendor-Specific.Meinberg
